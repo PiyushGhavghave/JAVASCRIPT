@@ -42,7 +42,7 @@ console.log(num+=2);
 let msg ;
 document.getElementById("mysub").onclick = function(){
     msg = document.getElementById("myinput").value;
-    console.log(msg);
+    document.getElementById("myp").textContent = msg;
 }
 
 
